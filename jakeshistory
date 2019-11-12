@@ -1,0 +1,95 @@
+    1  git init
+    2  git add gitText
+    3  mkdir gitDir 
+    4  cat gitDir
+    5  echo gitDir
+    6  cd gitDir
+    7  ls
+    8  echo "Git is Awesome" > gitText
+    9  ls
+   10  git init 
+   11  git add gitText 
+   12  git commit -m "First commit" 
+   13  git status
+   14  git add gitText
+   15  git status
+   16  git commit -m "Updated gitText"
+   17  git log 
+   18  rm gitText 
+   19  touch moreGitText 
+   20  git status 
+   21  git add moreGitText 
+   22  git status 
+   23  git add newFile 
+   24  git add newFile
+   25  git rm newFile
+   26  cd ../newfile
+   27  git rm gitText 
+   28  git -m "deleted gitText"
+   29  git commit -m "deleted gitText" 
+   30  git status 
+   31  git log
+   32  git checkout 1910153bda6b0abcf573863876ebea542301683c
+   33  ls
+   34  cat moreGitText
+   35  git log
+   36  git checkout 389a4997040e8cac109f201108a8df92f20e8621
+   37  ls
+   38  cat gitText
+   39  ls
+   40  git remote add origin playing-with-git
+   41  git remote add origin https://github.com/Jakephillips55/playing-with-git-.git
+   42  exit
+   43  init git
+   44  git remote add origin https://github.com/Jakephillips55/playing-with-git-.git
+   45  exit
+   46  git remote ls
+   47  git remote /all
+   48  git remote
+   49  echo "# playing-with-git-" >> README.md
+   50  git init
+   51  git add README.md
+   52  git commit -m "first commit"
+   53  git remote add origin https://github.com/Jakephillips55/playing-with-git-.git
+   54  git push -u origin master
+   55  git status
+   56  cd someDir
+   57  git status
+   58  pwd
+   59  ls
+   60  cd gitDir
+   61  cd ..
+   62  cd gitDir
+   63  git status
+   64  ls
+   65  git remote -v 
+   66  git status
+   67  git add playing-with-git 
+   68  git status
+   69  git push
+   70  ls
+   71  git status 
+   72  cd play-with-git 
+   73  cd playing-with-git 
+   74  cat playing-with-git
+   75  git remote -v 
+   76  git commit -m 
+   77  git commit -m "playing-with-git"
+   78  git branch 
+   79  git checkout master 
+   80  git push 
+   81  git push --set-upstream origin master 
+   82  git init
+   83  git status
+   84  git branch
+   85  git remote -v 
+   86  git remote add origin https://github.com/Jakephillips55/playing-with-git-.git
+   87  git push --set-upstream origin master 
+   88  git remote add special https://github.com/Jakephillips55/playing-with-git-.git 
+   89  git push --set-upstream special master 
+   90  git remote rm origin 
+   91  git remote -v
+   92  history > jakeshistory 
+   93  cat > jakeshistory 
+   94  cat jakeshistory 
+   95  history > jakeshistory 
